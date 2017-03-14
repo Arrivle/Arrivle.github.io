@@ -1021,8 +1021,12 @@ input, textarea {
     height: 3rem;
     font-size: 1rem;
     padding-top: 1rem;
-    box-shadow: 2px -2px 3px 2px #2fba1a;
+    box-shadow: 3px -3px 0px #3cba23;
+    background-image: linear-gradient(to bottom, #47e339, #249612);
     margin-top: 10rem; }
+
+  .header-button:hover, .about-button:hover, .contact-form__submit:hover {
+    box-shadow: inset 3px -3px 0px #3cba23; }
 
   .star {
     height: 6rem;
@@ -1080,7 +1084,8 @@ input, textarea {
     margin: auto;
     margin-top: 5rem;
     padding-top: 0.5rem;
-    box-shadow: 2px -2px 3px 2px #2fba1a; }
+    box-shadow: 3px -3px 0px #3cba23;
+    background-image: linear-gradient(to bottom, #47e339, #249612); }
 
   /*------------------------------------------------Works----------------------------------------------------*/
   .works {
@@ -1186,45 +1191,30 @@ input, textarea {
     background-position: 101% 50%; }
 
   /*-----------------------------------------------------CONTACTS--------------------------------------------------------------*/
-  .contacts-container__top-header {
-    margin-top: 5rem;
-    display: block;
-    width: 12rem;
-    position: static;
-    margin: auto; }
-
-  .contact-form__username, .contact-form__usermail {
-    height: 3rem;
-    font-size: 1.2rem; }
-
-  .contact-form__message {
-    height: 12rem;
-    font-size: 1.5rem; }
-
-  .contacts-container__align {
-    box-sizing: border-box;
-    padding-top: 2rem; }
-
   .contact-form__submit {
     width: 10rem;
     height: 3rem;
     font-size: 1rem;
     padding-top: 0.2rem;
-    box-shadow: 2px -2px 3px 2px #2fba1a;
-    margin-top: 4rem; }
+    margin-top: 4rem;
+    box-shadow: 3px -3px 0px #3cba23;
+    background-image: linear-gradient(to bottom, #47e339, #249612); }
 
-  .social-icons__item {
-    width: 2.75rem;
-    height: 2.75rem;
-    display: inline-block;
-    border-radius: 50%;
-    margin-right: 5rem;
-    background-size: 834px 300px;
-    background-image: url("../img/social.png");
-    margin: 1rem 3rem 1rem 0; }
+  .contacts-container__top-header {
+    margin-top: 2rem; }
+
+  input, textarea {
+    outline: none; }
+
+  .contact-form__message, .contact-form__usermail, .contact-form__username {
+    width: 30%; }
+
+  .contact-form__message:focus, .contact-form__usermail:focus, .contact-form__username:focus {
+    border: 1px solid #2fba1a;
+    box-shadow: 0px 0px 2px 2px rgba(48, 186, 26, 0.75); }
 
   .social-icons__item_facebook {
-    background-position: 40% 70%; }
+    background-position: 39.9% 70%; }
 
   .social-icons__item_twitter {
     background-position: 60% 70%; }
@@ -1233,13 +1223,13 @@ input, textarea {
     background-position: 50% 70%; }
 
   .social-icons__item_linked {
-    background-position: 70% 70%; }
+    background-position: 70.1% 70%; }
 
   .social-icons__item_github {
     background-position: 80.2% 70%; }
 
   .social-icons__item_google {
-    background-position: 30% 70%;
+    background-position: 29.9% 69.6%;
     margin-right: 0; }
 
   .contacts-container__social-header {
