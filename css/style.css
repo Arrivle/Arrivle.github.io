@@ -1102,7 +1102,7 @@ input, textarea {
     width: 25rem;
     height: 25rem;
     margin: auto;
-    box-shadow: -31px 44px 82px -5px rgba(0, 0, 0, 0.65);
+    box-shadow: 31px 44px 82px -5px rgba(0, 0, 0, 0.65);
     transition: all 2s ease; }
 
   .pop-btn:hover, .pop-btn_2:hover, .pop-btn_3:hover, .pop-btn_4:hover, .pop-btn_5:hover, .pop-btn_6:hover {
