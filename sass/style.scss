@@ -1381,7 +1381,15 @@ input,textarea{
 	width: 25rem;
 	height: 25rem;
 	margin:auto;
-	box-shadow: 0.25rem 0.25rem 0.5rem 0.25rem #3fa13f;
+	box-shadow: -31px 44px 82px -5px rgba(0,0,0,0.65); 
+	transition: all 2s ease;
+	}
+
+	.pop-btn:hover {
+	animation-name: up;
+	animation-duration: 0.3s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
 	}
 
 	.pop-up__picture {
@@ -1411,7 +1419,6 @@ input,textarea{
 	}
 
 /*------------------------------------------------SKILLS--------------------------------------------------------*/
-
 	.window-content__header {	
 	margin-top: 0;
 	display: block;
@@ -1441,7 +1448,7 @@ input,textarea{
 	background-position: -1% 97%;
 	background-size: 450px 450px;
 	margin-right: 8rem;
-	margin-top: 5rem;
+	margin-top: 3rem;
 	}
 	
 	.window-content__skill-item-name {
@@ -1455,10 +1462,15 @@ input,textarea{
 	.window-content__upper {
 	height: auto;
 	margin-bottom: 30rem;
+	padding-bottom: 3rem;
+	padding-top: 2rem;
+	box-sizing: border-box;
 	}
 
 	.window-content__bottom {
 	height: auto;
+	padding-bottom: 3rem;
+	box-sizing: border-box;
 	}
 
 	.window-content__middle {
@@ -1502,7 +1514,7 @@ input,textarea{
 	}
 
 	.contacts-container__top-header {
-		margin-top: 2rem;
+		margin-top: 4rem;
 	}
 
 	input, textarea {
@@ -1549,6 +1561,11 @@ input,textarea{
 		margin-top: 3rem;
 	}
 
+	.copyrights {
+		padding: 2rem 0;
+		font-size: 1rem;
+	}
+
 	@keyframes star {
 	0% {
 		background: #000;
@@ -1560,6 +1577,16 @@ input,textarea{
 		width: 3px;
 		background: #fff;
 		}
+	}
+
+	@keyframes up {
+		0% {
+
+			}
+		100% {
+			transform:translateY(-0.5rem);
+		}
+
 	}
 
 	@keyframes moon {
