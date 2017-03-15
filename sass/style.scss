@@ -1314,6 +1314,20 @@ input,textarea{
 	left: 75%;
 	top: 27%;
 	}
+
+	.up-btn {
+		display: block;
+		position: fixed;
+		width: 5rem;
+		height: 5rem;
+		background-image: url("../img/up.png");
+		background-size: cover;
+		border-radius: 50%;
+		right: 3%;
+		bottom: 5%;
+		z-index: 100;
+		opacity: 0.4;
+	}
 	/*-----------------------------------------------ABOUT-----------------------------------------------------*/
 
 	.about {
