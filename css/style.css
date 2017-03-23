@@ -544,7 +544,7 @@ body {
 .window-content__skill-item-name {
   margin-top: 17rem;
   font-family: "Droid";
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   text-transform: uppercase; }
 
@@ -765,7 +765,7 @@ input, textarea {
     font-size: 3rem;
     width: 12rem;
     margin: auto;
-    margin-top: 3rem;
+    top: 1.5rem;
     left: 12rem; }
 
   .about-content__hi-message {
@@ -784,7 +784,7 @@ input, textarea {
     margin: auto; }
 
   .about-button {
-    margin-top: 1rem;
+    margin-top: 3rem;
     margin-left: 25rem;
     margin-right: 0rem;
     padding-top: 0.5rem;
@@ -801,10 +801,10 @@ input, textarea {
     margin: 2rem auto; }
 
   .pop-btn, .pop-btn_2, .pop-btn_3, .pop-btn_4, .pop-btn_5, .pop-btn_6 {
-    width: 60%;
+    width: 40%;
     height: 70vh;
     margin-bottom: -8rem;
-    box-shadow: 0.25rem 0.25rem 0.5rem 0.25rem #3fa13f; }
+    box-shadow: 31px 44px 82px -5px rgba(0, 0, 0, 0.65); }
 
   .pop-up__picture {
     width: 30%; }
@@ -964,7 +964,7 @@ input, textarea {
       background-image: url("../img/phase4.png");
       background-repeat: no-repeat;
       background-size: 88px 89px; } } }
-@media screen and (min-width: 80rem) {
+@media screen and (min-width: 81rem) {
   /*--------------------------------------------HEADER-------------------------------------------------------*/
   .header {
     background-image: url("../img/header_back_big_screen.jpg"); }
@@ -1156,13 +1156,13 @@ input, textarea {
   .about-content__foto {
     height: 12rem;
     width: 12rem;
-    margin-top: 3rem; }
+    margin-top: 5rem; }
 
   .about-content__header, .works-content__header, .window-content__header, .contacts-container__top-header {
     font-size: 3rem;
     width: 12rem;
     margin: auto;
-    margin-top: 6rem;
+    margin-top: 3rem;
     left: 10rem; }
 
   .about-content__hi-message {
@@ -1432,9 +1432,9 @@ input, textarea {
     box-sizing: border-box;
     padding-top: 8rem; } }
 @media screen and (min-height: 200px) and (max-height: 830px) {
-  /*	.contacts-container__top-header {
-  		margin-top: 15rem;
-  	}*/
+  .contacts-container__top-header {
+    margin-top: 15rem; }
+
   .clever-words {
     margin-top: 8rem; }
 
